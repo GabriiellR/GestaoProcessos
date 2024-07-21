@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m+tsGWVwYyLlVHneECm63EA3pr9WUP+aKfQCLF0VJQLFcBV1F+8TL0UVYV9JQIdtsHT721f3XQILvQuL2/uChQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Aplicao.DTO\\GestaoProcessos.Aplicao.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
