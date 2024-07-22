@@ -1,0 +1,17 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Dominio.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\bin\Debug\net7.0\GestaoProcessos.Dominio.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj.CopyComplete
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\refint\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\obj\Debug\net7.0\ref\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll

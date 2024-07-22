@@ -1,0 +1,12 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\refint\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\ref\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll

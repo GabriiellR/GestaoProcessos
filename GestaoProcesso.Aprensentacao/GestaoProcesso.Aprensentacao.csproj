@@ -7,8 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Chamados\" />
+    <Folder Include="Controllers\Administracao\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj" />
   </ItemGroup>
 
 </Project>

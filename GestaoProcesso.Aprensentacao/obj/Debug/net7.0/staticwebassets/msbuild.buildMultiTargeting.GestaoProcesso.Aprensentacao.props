@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestaoProcesso.Aprensentacao.props" />
+</Project>

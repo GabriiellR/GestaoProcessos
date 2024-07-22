@@ -1,0 +1,12 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\refint\GestaoProcessos.Aplicacao.Validators.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Validators.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Validators\obj\Debug\net7.0\ref\GestaoProcessos.Aplicacao.Validators.dll

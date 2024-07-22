@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOMqPg9j/1vxu/FIaPibbVIy6JTRZatEPWlrFJzJU1TpcaPRIMMO1g0Tr6lYmL1HzdCbg+ISr7tu9jrnK3bqtQ==",
+  "dgSpecHash": "KNLTFIObp/P3z8wKxgOWAkDDNbojEWwImHX+BhQktxW8ac2apsr8+f/pGJNU73YIb9zkcopfJ0mrVTI3c+J4dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.Email.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.CrossCutting.Email.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,17 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Dominio.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\bin\Debug\net7.0\GestaoProcessos.Dominio.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.csproj.CopyComplete
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\refint\GestaoProcessos.Aplicacao.Interfaces.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\GestaoProcessos.Aplicacao.Interfaces.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Aplicacao.Nucleo\obj\Debug\net7.0\ref\GestaoProcessos.Aplicacao.Interfaces.dll

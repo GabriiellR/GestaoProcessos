@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoProcessos.Aplicacao.DTO\GestaoProcessos.Aplicacao.DTO.csproj" />
+    <ProjectReference Include="..\GestaoProcessos.Dominio\GestaoProcessos.Dominio.csproj" />
+  </ItemGroup>
+
 </Project>

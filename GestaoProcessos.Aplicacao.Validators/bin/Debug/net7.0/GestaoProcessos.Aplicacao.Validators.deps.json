@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GestaoProcessos.Aplicacao.Validators/1.0.0": {
+        "runtime": {
+          "GestaoProcessos.Aplicacao.Validators.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestaoProcessos.Aplicacao.Validators/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

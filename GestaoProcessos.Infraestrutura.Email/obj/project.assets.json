@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.Email.csproj",
-      "projectName": "GestaoProcessos.Infraestrutura.Email",
-      "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.Email.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.CrossCutting.Email.csproj",
+      "projectName": "GestaoProcessos.Infraestrutura.CrossCutting.Email",
+      "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.CrossCutting.Email.csproj",
       "packagesPath": "C:\\Users\\Gabriel Dias\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\obj\\",
       "projectStyle": "PackageReference",

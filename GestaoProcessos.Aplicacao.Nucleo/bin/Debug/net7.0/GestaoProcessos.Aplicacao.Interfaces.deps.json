@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "GestaoProcessos.Aplicacao.Interfaces/1.0.0": {
+        "dependencies": {
+          "GestaoProcessos.Aplicacao.DTO": "1.0.0",
+          "GestaoProcessos.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "GestaoProcessos.Aplicacao.Interfaces.dll": {}
+        }
+      },
+      "GestaoProcessos.Aplicacao.DTO/1.0.0": {
+        "runtime": {
+          "GestaoProcessos.Aplicacao.DTO.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio/1.0.0": {
+        "runtime": {
+          "GestaoProcessos.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestaoProcessos.Aplicacao.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoProcessos.Aplicacao.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoProcessos.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
