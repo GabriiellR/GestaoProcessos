@@ -110,7 +110,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Chamados
             builder.Property(prop => prop.SubfilaId)
                    .HasColumnName("subfila_id")
                    .HasColumnType("int")
-                   .IsRequired();
+                   .IsRequired(false);
 
             builder.HasOne(prop => prop.Subfila)
                    .WithMany(prop => prop.Chamados)

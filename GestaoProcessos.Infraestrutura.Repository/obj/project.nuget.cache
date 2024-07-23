@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vwoYPRULvrihmaJ41OXW0YVFePrlf2lIxQeFtCv9Y/OY8/mN/V+w38ixO6z3OBuB0v9aEa+fgvw1ugPAkEeFRA==",
+  "dgSpecHash": "5jCe0Wss8zbIvk1hO/Zi9etNqxJY0phZurIhYf2IQcPcmcZ4VT4TwL+3Y8HI81x3/aCgNR7GCo3vNuBi0z7VLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Repository\\GestaoProcessos.Infraestrutura.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.20\\microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.20\\microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",

@@ -627,9 +627,27 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "GestaoProcesso.Aplicacao/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Aplicacao.Interfaces": "1.0.0",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoProcesso.Aplicacao.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcesso.Aplicacao.dll": {}
+        }
+      },
       "GestaoProcessos.Aplicacao.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/GestaoProcessos.Aplicacao.DTO.dll": {}
         },
@@ -641,6 +659,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Aplicacao.DTO": "1.0.0",
           "GestaoProcessos.Dominio": "1.0.0"
         },
@@ -654,11 +673,42 @@
       "GestaoProcessos.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/GestaoProcessos.Dominio.dll": {}
         },
         "runtime": {
           "bin/placeholder/GestaoProcessos.Dominio.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoProcessos.Dominio.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcessos.Dominio.Interfaces.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio.Servicos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoProcessos.Dominio.Servicos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcessos.Dominio.Servicos.dll": {}
         }
       },
       "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/1.0.0": {
@@ -676,10 +726,29 @@
           "bin/placeholder/GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll": {}
         }
       },
+      "GestaoProcessos.Infraestrutura.CrossCutting.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcesso.Aplicacao": "1.0.0",
+          "GestaoProcessos.Aplicacao.Interfaces": "1.0.0",
+          "GestaoProcessos.Dominio.Servicos": "1.0.0",
+          "GestaoProcessos.Infraestrutura.Repository": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll": {}
+        }
+      },
       "GestaoProcessos.Infraestrutura.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.20",
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -692,6 +761,22 @@
         },
         "runtime": {
           "bin/placeholder/GestaoProcessos.Infraestrutura.Data.dll": {}
+        }
+      },
+      "GestaoProcessos.Infraestrutura.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0",
+          "GestaoProcessos.Infraestrutura.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/GestaoProcessos.Infraestrutura.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcessos.Infraestrutura.Repository.dll": {}
         }
       }
     }
@@ -1837,6 +1922,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "GestaoProcesso.Aplicacao/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcesso.Aplicacao/GestaoProcesso.Aplicacao.csproj",
+      "msbuildProject": "../GestaoProcesso.Aplicacao/GestaoProcesso.Aplicacao.csproj"
+    },
     "GestaoProcessos.Aplicacao.DTO/1.0.0": {
       "type": "project",
       "path": "../GestaoProcessos.Aplicacao.DTO/GestaoProcessos.Aplicacao.DTO.csproj",
@@ -1852,15 +1942,35 @@
       "path": "../GestaoProcessos.Dominio/GestaoProcessos.Dominio.csproj",
       "msbuildProject": "../GestaoProcessos.Dominio/GestaoProcessos.Dominio.csproj"
     },
+    "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcessos.Interfaces/GestaoProcessos.Dominio.Interfaces.csproj",
+      "msbuildProject": "../GestaoProcessos.Interfaces/GestaoProcessos.Dominio.Interfaces.csproj"
+    },
+    "GestaoProcessos.Dominio.Servicos/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcessos.Dominio.Servicos/GestaoProcessos.Dominio.Servicos.csproj",
+      "msbuildProject": "../GestaoProcessos.Dominio.Servicos/GestaoProcessos.Dominio.Servicos.csproj"
+    },
     "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/1.0.0": {
       "type": "project",
       "path": "../GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj",
       "msbuildProject": "../GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj"
     },
+    "GestaoProcessos.Infraestrutura.CrossCutting.IoC/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcessos.Infraestrutura.CrossCutting.IoC/GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj",
+      "msbuildProject": "../GestaoProcessos.Infraestrutura.CrossCutting.IoC/GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj"
+    },
     "GestaoProcessos.Infraestrutura.Data/1.0.0": {
       "type": "project",
       "path": "../GestaoProcessos.Infraestrutura.Data/GestaoProcessos.Infraestrutura.Data.csproj",
       "msbuildProject": "../GestaoProcessos.Infraestrutura.Data/GestaoProcessos.Infraestrutura.Data.csproj"
+    },
+    "GestaoProcessos.Infraestrutura.Repository/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcessos.Infraestrutura.Repository/GestaoProcessos.Infraestrutura.Repository.csproj",
+      "msbuildProject": "../GestaoProcessos.Infraestrutura.Repository/GestaoProcessos.Infraestrutura.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1868,6 +1978,7 @@
       "AutoMapper >= 13.0.1",
       "GestaoProcessos.Aplicacao.Interfaces >= 1.0.0",
       "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores >= 1.0.0",
+      "GestaoProcessos.Infraestrutura.CrossCutting.IoC >= 1.0.0",
       "GestaoProcessos.Infraestrutura.Data >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.20",
@@ -1906,6 +2017,9 @@
             },
             "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj": {
               "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj"
+            },
+            "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.CrossCutting.IoC\\GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.CrossCutting.IoC\\GestaoProcessos.Infraestrutura.CrossCutting.IoC.csproj"
             },
             "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Data\\GestaoProcessos.Infraestrutura.Data.csproj": {
               "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Data\\GestaoProcessos.Infraestrutura.Data.csproj"

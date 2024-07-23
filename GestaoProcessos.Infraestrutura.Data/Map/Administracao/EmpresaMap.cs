@@ -8,7 +8,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
     {
         public void Configure(EntityTypeBuilder<Empresa> builder)
         {
-            builder.ToTable("empresa");
+            builder.ToTable("adm_empresa");
             builder.HasKey(prop => prop.Id);
 
             builder.Property(prop => prop.Id)

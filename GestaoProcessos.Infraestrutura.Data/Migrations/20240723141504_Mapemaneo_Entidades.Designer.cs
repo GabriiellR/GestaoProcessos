@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestaoProcessos.Infraestrutura.Data.Migrations
 {
     [DbContext(typeof(MysqlContext))]
-    [Migration("20240723033637_Mapeamento_Entidades")]
-    partial class Mapeamento_Entidades
+    [Migration("20240723141504_Mapemaneo_Entidades")]
+    partial class Mapemaneo_Entidades
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("empresa", (string)null);
+                    b.ToTable("adm_empresa", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Filial", b =>
@@ -55,7 +55,9 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.Property<string>("Cep")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(8)
+                        .HasColumnType("varchar")
+                        .HasColumnName("cep");
 
                     b.Property<string>("Localidade")
                         .IsRequired()
@@ -93,7 +95,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("filial", (string)null);
+                    b.ToTable("adm_filial", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Funcao", b =>
@@ -111,7 +113,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("funcao", (string)null);
+                    b.ToTable("adm_funcao", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Setor", b =>
@@ -129,7 +131,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("setor", (string)null);
+                    b.ToTable("adm_setor", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Usuario", b =>
@@ -142,6 +144,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                     b.Property<DateOnly>("DataNascimento")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("date")
+                        .HasColumnName("data_nascimento")
                         .HasDefaultValueSql("CURDATE()");
 
                     b.Property<string>("Email")
@@ -159,10 +162,12 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         .HasColumnName("filial_id");
 
                     b.Property<int>("FuncaoId")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("funcao_id");
 
-                    b.Property<int>("GestorId")
-                        .HasColumnType("int");
+                    b.Property<int?>("GestorId")
+                        .HasColumnType("int")
+                        .HasColumnName("gestor_id");
 
                     b.Property<string>("Login")
                         .IsRequired()
@@ -196,7 +201,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasIndex("SetorId");
 
-                    b.ToTable("usuarios", (string)null);
+                    b.ToTable("adm_usuarios", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Chamados.CategoriaChamado", b =>
@@ -437,9 +442,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasOne("GestaoProcessos.Dominio.Administracao.Usuario", "Gestor")
                         .WithMany("UsuariosSubordinados")
-                        .HasForeignKey("GestorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("GestorId");
 
                     b.HasOne("GestaoProcessos.Dominio.Administracao.Setor", "Setor")
                         .WithMany("Usuarios")

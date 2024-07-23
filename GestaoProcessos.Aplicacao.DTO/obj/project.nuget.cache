@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kpd6Tz08LmRcWy7F+R5RxpOoz5+W55bzipANDYLPebGM8NYdHrC4/TIBCynaKQeRpyDP4+wWveBonhkY77ZFcQ==",
+  "dgSpecHash": "ozCZSCk6dOCc338EkQt/+JQaUW8yuTXTCDsKgUYxPC/5NCgK5tNDAsmQGKKp5XHZiFYrhbISLAzpEBMbJNw41w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Aplicacao.DTO\\GestaoProcessos.Aplicacao.DTO.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

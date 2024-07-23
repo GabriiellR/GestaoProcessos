@@ -372,6 +372,9 @@
       "GestaoProcessos.Aplicacao.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/GestaoProcessos.Aplicacao.DTO.dll": {}
         },
@@ -383,6 +386,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Aplicacao.DTO": "1.0.0",
           "GestaoProcessos.Dominio": "1.0.0"
         },
@@ -396,6 +400,9 @@
       "GestaoProcessos.Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/GestaoProcessos.Dominio.dll": {}
         },
@@ -407,6 +414,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Dominio": "1.0.0"
         },
         "compile": {

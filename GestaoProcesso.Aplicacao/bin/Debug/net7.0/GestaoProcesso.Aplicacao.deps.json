@@ -222,12 +222,16 @@
         }
       },
       "GestaoProcessos.Aplicacao.DTO/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "runtime": {
           "GestaoProcessos.Aplicacao.DTO.dll": {}
         }
       },
       "GestaoProcessos.Aplicacao.Interfaces/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Aplicacao.DTO": "1.0.0",
           "GestaoProcessos.Dominio": "1.0.0"
         },
@@ -236,12 +240,16 @@
         }
       },
       "GestaoProcessos.Dominio/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "runtime": {
           "GestaoProcessos.Dominio.dll": {}
         }
       },
       "GestaoProcessos.Dominio.Interfaces/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Dominio": "1.0.0"
         },
         "runtime": {

@@ -8,7 +8,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Chamados
     {
         public void Configure(EntityTypeBuilder<CategoriaChamado> builder)
         {
-            builder.ToTable("cmd_cateforias");
+            builder.ToTable("cmd_categorias");
             builder.HasKey(prop => prop.Id);
 
             builder.Property(prop => prop.Id)

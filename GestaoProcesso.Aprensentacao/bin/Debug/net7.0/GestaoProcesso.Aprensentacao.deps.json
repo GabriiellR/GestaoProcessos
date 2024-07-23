@@ -11,6 +11,7 @@
           "AutoMapper": "13.0.1",
           "GestaoProcessos.Aplicacao.Interfaces": "1.0.0",
           "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores": "1.0.0",
+          "GestaoProcessos.Infraestrutura.CrossCutting.IoC": "1.0.0",
           "GestaoProcessos.Infraestrutura.Data": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.20",
@@ -353,13 +354,27 @@
           }
         }
       },
+      "GestaoProcesso.Aplicacao/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Aplicacao.Interfaces": "1.0.0",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "GestaoProcesso.Aplicacao.dll": {}
+        }
+      },
       "GestaoProcessos.Aplicacao.DTO/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "runtime": {
           "GestaoProcessos.Aplicacao.DTO.dll": {}
         }
       },
       "GestaoProcessos.Aplicacao.Interfaces/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Aplicacao.DTO": "1.0.0",
           "GestaoProcessos.Dominio": "1.0.0"
         },
@@ -368,8 +383,29 @@
         }
       },
       "GestaoProcessos.Dominio/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
         "runtime": {
           "GestaoProcessos.Dominio.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "GestaoProcessos.Dominio.Interfaces.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio.Servicos/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "GestaoProcessos.Dominio.Servicos.dll": {}
         }
       },
       "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/1.0.0": {
@@ -382,8 +418,22 @@
           "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.dll": {}
         }
       },
+      "GestaoProcessos.Infraestrutura.CrossCutting.IoC/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcesso.Aplicacao": "1.0.0",
+          "GestaoProcessos.Aplicacao.Interfaces": "1.0.0",
+          "GestaoProcessos.Dominio.Servicos": "1.0.0",
+          "GestaoProcessos.Infraestrutura.Repository": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll": {}
+        }
+      },
       "GestaoProcessos.Infraestrutura.Data/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "GestaoProcessos.Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.20",
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -393,6 +443,17 @@
         },
         "runtime": {
           "GestaoProcessos.Infraestrutura.Data.dll": {}
+        }
+      },
+      "GestaoProcessos.Infraestrutura.Repository/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "GestaoProcessos.Dominio.Interfaces": "1.0.0",
+          "GestaoProcessos.Infraestrutura.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.20"
+        },
+        "runtime": {
+          "GestaoProcessos.Infraestrutura.Repository.dll": {}
         }
       }
     }
@@ -655,6 +716,11 @@
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
     },
+    "GestaoProcesso.Aplicacao/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GestaoProcessos.Aplicacao.DTO/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -670,12 +736,32 @@
       "serviceable": false,
       "sha512": ""
     },
+    "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoProcessos.Dominio.Servicos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "GestaoProcessos.Infraestrutura.CrossCutting.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "GestaoProcessos.Infraestrutura.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoProcessos.Infraestrutura.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

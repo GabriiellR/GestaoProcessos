@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KNLTFIObp/P3z8wKxgOWAkDDNbojEWwImHX+BhQktxW8ac2apsr8+f/pGJNU73YIb9zkcopfJ0mrVTI3c+J4dw==",
+  "dgSpecHash": "KpM10QYcsnRF1BXP1hR1DbVwSkuGXCfIbhl3dN2RvqELYdqRDM5SFnS1cf8XfsN4C1UL7b4/8KfBXaKMGPTnTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Infraestrutura.Email\\GestaoProcessos.Infraestrutura.CrossCutting.Email.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

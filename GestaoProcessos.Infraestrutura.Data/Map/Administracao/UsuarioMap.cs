@@ -8,7 +8,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            builder.ToTable("usuarios");
+            builder.ToTable("adm_usuarios");
             builder.HasKey(prop => prop.Id);
 
             builder.Property(prop => prop.Id)
@@ -35,6 +35,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
                    .IsRequired();
 
             builder.Property(prop => prop.DataNascimento)
+                   .HasColumnName("data_nascimento")
                    .HasColumnType("date")
                    .HasDefaultValueSql("CURDATE()");
 
@@ -69,6 +70,24 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
             builder.HasOne(prop => prop.Empresa)
                    .WithMany(prop => prop.Usuarios)
                    .HasForeignKey(prop => prop.EmpresaId);
+
+            builder.Property(prop => prop.GestorId)
+                   .HasColumnName("gestor_id")
+                   .HasColumnType("int")
+                   .IsRequired(false);
+
+            builder.HasOne(prop => prop.Gestor)
+                   .WithMany(prop => prop.UsuariosSubordinados)
+                   .HasForeignKey(prop => prop.GestorId);
+
+            builder.Property(prop => prop.FuncaoId)
+                   .HasColumnName("funcao_id")
+                   .HasColumnType("int")
+                   .IsRequired();
+
+            builder.HasOne(prop => prop.Funcao)
+                  .WithMany(prop => prop.Usuarios)
+                  .HasForeignKey(prop => prop.FuncaoId);
         }
     }
 }

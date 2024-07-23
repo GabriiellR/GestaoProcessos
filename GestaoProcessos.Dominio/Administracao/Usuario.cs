@@ -16,7 +16,7 @@ namespace GestaoProcessos.Dominio.Administracao
         public virtual Setor? Setor { get; set; }
         public int EmpresaId { get; set; }
         public virtual Empresa? Empresa { get; set; }
-        public int GestorId { get; set; }
+        public int? GestorId { get; set; }
         public virtual Usuario? Gestor { get; set; }
         public int FuncaoId { get; set; }
         public virtual Funcao? Funcao { get; set; }

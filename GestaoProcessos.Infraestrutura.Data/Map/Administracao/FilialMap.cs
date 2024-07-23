@@ -8,7 +8,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
     {
         public void Configure(EntityTypeBuilder<Filial> builder)
         {
-            builder.ToTable("filial");
+            builder.ToTable("adm_filial");
             builder.HasKey(prop => prop.Id);
 
             builder.Property(prop => prop.Id)
@@ -55,6 +55,12 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
                    .HasColumnName("telefone")
                    .HasColumnType("varchar")
                    .HasMaxLength(13)
+                   .IsRequired();
+
+            builder.Property(prop => prop.Cep)
+                   .HasColumnName("cep")
+                   .HasColumnType("varchar")
+                   .HasMaxLength(8)
                    .IsRequired();
         }
     }
