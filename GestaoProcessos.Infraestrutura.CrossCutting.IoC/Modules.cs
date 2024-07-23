@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using GestaoProcesso.Aplicacao.Chamados;
+using GestaoProcesso.Aplicacao.Hubs;
 using GestaoProcessos.Aplicacao.Interfaces.Chamados;
+using GestaoProcessos.Aplicacao.Interfaces.Hubs;
 using GestaoProcessos.Dominio.Interfaces.Repository.Chamados;
 using GestaoProcessos.Dominio.Interfaces.Service.Chamados;
 using GestaoProcessos.Dominio.Servicos.Chamados;
@@ -21,6 +23,8 @@ namespace GestaoProcessos.Infraestrutura.CrossCutting.IoC
 
         private static void RegisterScoped(IServiceCollection service)
         {
+            service.AddScoped<IChamadoHub, ChamadoHub>();
+
             service.AddScoped<IApplicationServiceChamado, ApplicationServiceChamado>();
 
             service.AddScoped<IServiceChamado, ServiceChamado>();

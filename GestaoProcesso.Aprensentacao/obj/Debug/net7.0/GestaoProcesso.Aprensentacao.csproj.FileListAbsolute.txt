@@ -73,3 +73,4 @@ C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aprensentacao\obj\D
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aprensentacao\obj\Debug\net7.0\GestaoProcesso.Aprensentacao.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aprensentacao\obj\Debug\net7.0\GestaoProcesso.Aprensentacao.genruntimeconfig.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aprensentacao\obj\Debug\net7.0\ref\GestaoProcesso.Aprensentacao.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aprensentacao\bin\Debug\net7.0\Newtonsoft.Json.dll

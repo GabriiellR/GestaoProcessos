@@ -15,6 +15,14 @@ namespace GestaoProcesso.Aprensentacao.Extensions
 
         public static void ConfigureCors(this IServiceCollection services)
         {
+            services.AddCors(p => p.AddPolicy("corsWebsocket", builder =>
+            {
+                builder.WithOrigins("http://localhost:5500", "https://localhost:5500")
+                       .AllowAnyMethod()
+                       .AllowAnyHeader()
+                       .AllowCredentials();
+            }));
+
             services.AddCors(p => p.AddPolicy("corsapp", builder =>
             {
                 builder.WithOrigins("*")
