@@ -530,6 +530,9 @@
       "GestaoProcessos.Dominio.Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GestaoProcessos.Dominio": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/GestaoProcessos.Dominio.Interfaces.dll": {}
         },
@@ -1388,6 +1391,7 @@
       "GestaoProcessos.Dominio.Interfaces >= 1.0.0",
       "GestaoProcessos.Infraestrutura.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.20",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.20",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.20"
     ]
   },
@@ -1438,6 +1442,12 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.20, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.20, )"
           },

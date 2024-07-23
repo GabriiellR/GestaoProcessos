@@ -1,9 +1,5 @@
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.csproj.AssemblyReference.cache
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.AssemblyInfoInputs.cache
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.AssemblyInfo.cs
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcesso.Aplicacao.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcesso.Aplicacao.runtimeconfig.json
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcesso.Aplicacao.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcesso.Aplicacao.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.dll
@@ -14,8 +10,14 @@ C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Aplicacao.DTO.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Dominio.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.csproj.CopyComplete
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\refint\GestaoProcesso.Aplicacao.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.genruntimeconfig.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\ref\GestaoProcesso.Aplicacao.dll

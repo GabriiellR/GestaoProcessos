@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+        "dependencies": {
+          "GestaoProcessos.Dominio": "1.0.0"
+        },
         "runtime": {
           "GestaoProcessos.Dominio.Interfaces.dll": {}
+        }
+      },
+      "GestaoProcessos.Dominio/1.0.0": {
+        "runtime": {
+          "GestaoProcessos.Dominio.dll": {}
         }
       }
     }
   },
   "libraries": {
     "GestaoProcessos.Dominio.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GestaoProcessos.Dominio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

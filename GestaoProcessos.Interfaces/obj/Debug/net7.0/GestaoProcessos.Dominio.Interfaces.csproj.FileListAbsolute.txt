@@ -1,11 +1,14 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.csproj.AssemblyReference.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.AssemblyInfoInputs.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.AssemblyInfo.cs
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.csproj.CoreCompileInputs.cache
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.deps.json
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.dll
-C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\bin\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.csproj.CopyComplete
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\refint\GestaoProcessos.Dominio.Interfaces.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Interfaces\obj\Debug\net7.0\GestaoProcessos.Dominio.Interfaces.pdb

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "GestaoProcessos.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GestaoProcessos.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestaoProcessos.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GestaoProcessos.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../GestaoProcessos.Dominio/GestaoProcessos.Dominio.csproj",
+      "msbuildProject": "../GestaoProcessos.Dominio/GestaoProcessos.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "GestaoProcessos.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Dominio\\GestaoProcessos.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcessos.Dominio\\GestaoProcessos.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
