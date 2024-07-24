@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GestaoProcessos.Infraestrutura.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class Mapemaneo_Entidades : Migration
+    public partial class Mapeamento_Entidades : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -91,7 +91,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "cmd_cateforias",
+                name: "cmd_categorias",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
@@ -101,7 +101,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_cmd_cateforias", x => x.id);
+                    table.PrimaryKey("PK_cmd_categorias", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -161,6 +161,10 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                     email = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     login = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    hash_senha = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    salt = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     data_nascimento = table.Column<DateOnly>(type: "date", nullable: false, defaultValueSql: "CURDATE()"),
                     status = table.Column<sbyte>(type: "tinyint", nullable: false),
@@ -228,7 +232,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                     usuario_solucao = table.Column<int>(type: "int", nullable: true),
                     fila_id = table.Column<int>(type: "int", nullable: false),
                     categoria_id = table.Column<int>(type: "int", nullable: false),
-                    subfila_id = table.Column<int>(type: "int", nullable: false)
+                    subfila_id = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -245,9 +249,9 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         principalTable: "adm_usuarios",
                         principalColumn: "id");
                     table.ForeignKey(
-                        name: "FK_cmd_chamados_cmd_cateforias_categoria_id",
+                        name: "FK_cmd_chamados_cmd_categorias_categoria_id",
                         column: x => x.categoria_id,
-                        principalTable: "cmd_cateforias",
+                        principalTable: "cmd_categorias",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -266,8 +270,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         name: "FK_cmd_chamados_cmd_subfilas_subfila_id",
                         column: x => x.subfila_id,
                         principalTable: "cmd_subfilas",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "id");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -386,7 +389,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                 name: "cmd_filasusuarios");
 
             migrationBuilder.DropTable(
-                name: "cmd_cateforias");
+                name: "cmd_categorias");
 
             migrationBuilder.DropTable(
                 name: "cmd_statuschamado");

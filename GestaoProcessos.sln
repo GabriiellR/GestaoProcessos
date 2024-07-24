@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoProcessos.Infraestrut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoProcessos.Infraestrutura.CrossCutting.Email", "GestaoProcessos.Infraestrutura.Email\GestaoProcessos.Infraestrutura.CrossCutting.Email.csproj", "{0ACF087A-7AC1-4FDF-B515-79CBC7E52E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores", "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj", "{F7AD6399-D96A-43AC-84D1-891A27A8D26C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores", "GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores\GestaoProcessos.Infraesrtutura.CrossCutting.Adaptadores.csproj", "{F7AD6399-D96A-43AC-84D1-891A27A8D26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoProcessos.Infraestrutura.CrossCutting.Extensions", "GestaoProcessos.Infraestrutura.CrossCutting.Extensions\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.csproj", "{4B909007-E742-43C0-B22A-7C34F001592E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{F7AD6399-D96A-43AC-84D1-891A27A8D26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7AD6399-D96A-43AC-84D1-891A27A8D26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7AD6399-D96A-43AC-84D1-891A27A8D26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B909007-E742-43C0-B22A-7C34F001592E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B909007-E742-43C0-B22A-7C34F001592E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B909007-E742-43C0-B22A-7C34F001592E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B909007-E742-43C0-B22A-7C34F001592E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{DE446FC2-8568-488F-97F9-BC3FA321C0A2} = {E04562B4-9C4D-425D-92DC-ACBF41804752}
 		{0ACF087A-7AC1-4FDF-B515-79CBC7E52E05} = {E04562B4-9C4D-425D-92DC-ACBF41804752}
 		{F7AD6399-D96A-43AC-84D1-891A27A8D26C} = {E04562B4-9C4D-425D-92DC-ACBF41804752}
+		{4B909007-E742-43C0-B22A-7C34F001592E} = {E04562B4-9C4D-425D-92DC-ACBF41804752}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C70DB339-3048-4CD4-85A0-7832555A7B8E}

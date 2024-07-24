@@ -16,6 +16,14 @@ namespace GestaoProcessos.Infraestrutura.Data.Map.Administracao
                    .HasColumnType("int")
                    .IsRequired();
 
+            builder.Property(prop=>prop.HashSenha)
+                   .HasColumnName("hash_senha")
+                   .HasColumnType("longtext");
+
+            builder.Property(prop => prop.Salt)
+                   .HasColumnName("salt")
+                   .HasColumnType("longtext");
+
             builder.Property(prop => prop.Nome)
                    .HasColumnName("nome")
                    .HasColumnType("varchar")

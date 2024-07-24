@@ -1,0 +1,12 @@
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.deps.json
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\refint\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.pdb
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.Extensions\obj\Debug\net7.0\ref\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll

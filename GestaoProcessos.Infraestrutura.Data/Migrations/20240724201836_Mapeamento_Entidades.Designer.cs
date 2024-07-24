@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestaoProcessos.Infraestrutura.Data.Migrations
 {
     [DbContext(typeof(MysqlContext))]
-    [Migration("20240723141504_Mapemaneo_Entidades")]
-    partial class Mapemaneo_Entidades
+    [Migration("20240724201836_Mapeamento_Entidades")]
+    partial class Mapeamento_Entidades
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -169,6 +169,11 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         .HasColumnType("int")
                         .HasColumnName("gestor_id");
 
+                    b.Property<string>("HashSenha")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("hash_senha");
+
                     b.Property<string>("Login")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -180,6 +185,11 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("varchar")
                         .HasColumnName("nome");
+
+                    b.Property<string>("Salt")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("salt");
 
                     b.Property<int>("SetorId")
                         .HasColumnType("int")
@@ -219,7 +229,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("cmd_cateforias", (string)null);
+                    b.ToTable("cmd_categorias", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Chamados.Chamado", b =>
@@ -272,7 +282,6 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                         .HasColumnName("status_id");
 
                     b.Property<int?>("SubfilaId")
-                        .IsRequired()
                         .HasColumnType("int")
                         .HasColumnName("subfila_id");
 
@@ -483,9 +492,7 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
                     b.HasOne("GestaoProcessos.Dominio.Chamados.SubfilaChamado", "Subfila")
                         .WithMany("Chamados")
-                        .HasForeignKey("SubfilaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SubfilaId");
 
                     b.HasOne("GestaoProcessos.Dominio.Administracao.Usuario", "UsuarioAbertura")
                         .WithMany("ChamadosAbertura")

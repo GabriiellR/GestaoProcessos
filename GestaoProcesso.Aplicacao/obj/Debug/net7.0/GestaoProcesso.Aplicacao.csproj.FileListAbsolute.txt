@@ -21,3 +21,5 @@ C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\GestaoProcesso.Aplicacao.genruntimeconfig.cache
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\obj\Debug\net7.0\ref\GestaoProcesso.Aplicacao.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcesso.Aplicacao\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.pdb

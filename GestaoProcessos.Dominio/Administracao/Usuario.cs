@@ -7,6 +7,8 @@ namespace GestaoProcessos.Dominio.Administracao
         public string Nome { get; set; } = string.Empty;
         public string Email { get; set; } = string.Empty;
         public string Login { get; set; } = string.Empty;
+        public string HashSenha { get; set; } = string.Empty;
+        public string Salt { get; set; } = string.Empty;
         public DateOnly DataNascimento { get; set; }
         public bool Status { get; set; }
 
@@ -25,6 +27,5 @@ namespace GestaoProcessos.Dominio.Administracao
         public virtual List<Chamado>? ChamadosAbertura { get; set; }
         public virtual List<Chamado>? ChamadosSolucao { get; set; }
         public virtual List<FilaUsuario>? FilasUsuarios { get; set; }
-
     }
 }

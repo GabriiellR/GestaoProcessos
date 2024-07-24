@@ -27,3 +27,5 @@ C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.Cro
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\refint\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.IoC.pdb
 C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\obj\Debug\net7.0\ref\GestaoProcessos.Infraestrutura.CrossCutting.IoC.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.dll
+C:\Users\Gabriel Dias\Desktop\GestaoProcessos\GestaoProcessos.Infraestrutura.CrossCutting.IoC\bin\Debug\net7.0\GestaoProcessos.Infraestrutura.CrossCutting.Extensions.pdb
