@@ -29,15 +29,19 @@ namespace GestaoProcessos.Infraestrutura.CrossCutting.IoC
             service.AddScoped<IApplicationServiceAuth, ApplicationServiceAuth>();
             service.AddScoped<IApplicationServicePassword, ApplicationServicePassword>();
             service.AddScoped<IApplicationServiceToken, ApplicationServiceToken>();
+            service.AddScoped<IApplicationServiceParametros, ApplicationServiceParametros>();
+
 
             service.AddScoped<IApplicationServiceChamado, ApplicationServiceChamado>();
             service.AddScoped<IApplicationServiceUsuario, ApplicationServiceUsuario>();
 
             service.AddScoped<IServiceChamado, ServiceChamado>();
             service.AddScoped<IServiceUsuario, ServiceUsuario>();
+            service.AddScoped<IServiceParametros, ServiceParametros>();
 
             service.AddScoped<IRepositoryChamado, RepositoryChamado>();
             service.AddScoped<IRepositoryUsuario, RepositoryUsuario>();
+            service.AddScoped<IRepositoryParametros, RepositoryParametros>();
 
         }
 

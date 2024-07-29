@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Administracao\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GestaoProcessos.Infraestrutura.Data\GestaoProcessos.Infraestrutura.Data.csproj" />
     <ProjectReference Include="..\GestaoProcessos.Interfaces\GestaoProcessos.Dominio.Interfaces.csproj" />
   </ItemGroup>

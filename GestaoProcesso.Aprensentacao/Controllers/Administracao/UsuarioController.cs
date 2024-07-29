@@ -1,5 +1,6 @@
 ﻿using GestaoProcessos.Aplicacao.DTO.Administracao;
 using GestaoProcessos.Aplicacao.Interfaces.Administracao;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GestaoProcesso.Aprensentacao.Controllers.Administracao
@@ -15,6 +16,7 @@ namespace GestaoProcesso.Aprensentacao.Controllers.Administracao
             _applicationServiceUsuario = applicationServiceUsuario;
         }
 
+        [Authorize]
         [HttpPost("novo-usuario")]
         public ActionResult NovoUsuario(UsuarioDTO usuario)
         {

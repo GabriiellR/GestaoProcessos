@@ -1,5 +1,8 @@
-﻿using GestaoProcessos.Aplicacao.DTO.Administracao;
+﻿using GestaoProcesso.Aprensentacao.Constants;
+using GestaoProcesso.Aprensentacao.Enumeradores;
+using GestaoProcessos.Aplicacao.DTO.Administracao;
 using GestaoProcessos.Aplicacao.Interfaces.Administracao;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GestaoProcesso.Aprensentacao.Controllers.Administracao
@@ -22,11 +25,11 @@ namespace GestaoProcesso.Aprensentacao.Controllers.Administracao
             try
             {
                 var token = _applicationServiceAuth.Autenticar(dto);
-                return Ok(token);
+                return DefaultResults.HandleResult(ResultType.Get, token);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return DefaultResults.HandleResult(ex.Message);
             }
         }
     }

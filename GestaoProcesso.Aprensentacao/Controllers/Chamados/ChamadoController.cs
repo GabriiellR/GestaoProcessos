@@ -1,6 +1,7 @@
 ﻿using GestaoProcesso.Aplicacao.Hubs;
 using GestaoProcessos.Aplicacao.DTO.Chamados;
 using GestaoProcessos.Aplicacao.Interfaces.Chamados;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 
@@ -31,6 +32,7 @@ namespace GestaoProcesso.Aprensentacao.Controllers.Chamados
             return new OkObjectResult(new { Message = "Dados adicionados", Data = dto });
         }
 
+        [Authorize]
         [HttpGet]
         public ActionResult GetAll()
         {

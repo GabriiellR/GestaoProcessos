@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0FA0rlZfUDm5mZGXN/oIIE0b/8/O8/wB5B4AQ1Csl0bCmH0RuRh2lXn+H8oy59dMZ+7CiR74r2Pt1Rla4q9jbg==",
+  "dgSpecHash": "+8pBP070qB8ws/cPSYbY544Azl5Zc20pJeSqhhA6ezGvSZs/h49mRTqdYCTPBE3NNnylawGQA3TmXC3Dl9K/gA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Dias\\Desktop\\GestaoProcessos\\GestaoProcesso.Aprensentacao\\GestaoProcesso.Aprensentacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.20\\microsoft.aspnetcore.authentication.jwtbearer.7.0.20.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\2.2.0\\microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.7\\microsoft.aspnetcore.cryptography.internal.8.0.7.nupkg.sha512",
@@ -40,6 +41,8 @@
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Gabriel Dias\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

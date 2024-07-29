@@ -10,12 +10,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureAutoMapper();
 builder.Services.RegisterModules();
-
 builder.Services.AddSignalR();
+builder.Services.ConfigureJWT();
 
 string connectionSrting = builder.Configuration.GetConnectionString("Mysql");
 builder.Services.ConfigureDatabase(connectionSrting);
-
 
 var app = builder.Build();
 
@@ -26,10 +25,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseRouting();
+//app.UseMiddleware<MiddlwareToken>();
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseCors("corsWebsocket");
 app.UseCors("corsapp");
 app.UseHttpsRedirection();
-app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();

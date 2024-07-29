@@ -35,5 +35,6 @@ namespace GestaoProcessos.Infraestrutura.Data
         public DbSet<FilaChamado> FilaChamado { get; set; }
         public DbSet<SubfilaChamado> Subfila { get; set; }
         public DbSet<CategoriaChamado> CategoriaChamado { get; set; }
+        public DbSet<Parametros> Parametros { get; set; }
     }
 }

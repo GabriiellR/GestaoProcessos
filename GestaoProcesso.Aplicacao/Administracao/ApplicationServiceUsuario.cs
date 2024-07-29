@@ -14,17 +14,25 @@ namespace GestaoProcesso.Aplicacao.Administracao
         public ApplicationServiceUsuario(IMapper mapper, IServiceUsuario serviceUsuario, IApplicationServicePassword applicationServicePassword) : base(mapper, serviceUsuario)
         {
             _serviceUsuario = serviceUsuario;
+            _mapper = mapper;
             _applicationServicePassword = applicationServicePassword;
 
         }
 
         public UsuarioDTO CadastrarUsuario(UsuarioDTO usuarioDto)
         {
-            var entity = _mapper.Map<Usuario>(usuarioDto);
-            entity = GerarHashPassword(entity, usuarioDto);
-            _serviceUsuario.AddOrUpdate(entity);
+            try
+            {
+                var entity = _mapper.Map<Usuario>(usuarioDto);
+                entity = GerarHashPassword(entity, usuarioDto);
+                _serviceUsuario.AddOrUpdate(entity);
 
-            return _mapper.Map<UsuarioDTO>(entity);
+                return _mapper.Map<UsuarioDTO>(entity);
+            }
+            catch (Exception ex)
+            {
+                throw new OperationCanceledException(ex.Message);
+            }
         }
 
         public UsuarioDTO GetByLogin(string login)
@@ -36,7 +44,7 @@ namespace GestaoProcesso.Aplicacao.Administracao
         private Usuario GerarHashPassword(Usuario entity, UsuarioDTO dto)
         {
             var salt = _applicationServicePassword.GerarSalt();
-            entity.HashSenha = _applicationServicePassword.HashPassword(dto.Senha, salt);
+            entity.HashSenha = _applicationServicePassword.GerarHashPassword(dto.Senha, salt);
             entity.Salt = salt;
 
             return entity;

@@ -151,6 +151,36 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "adm_parametros",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    nome_sistema = table.Column<string>(type: "varchar(80)", maxLength: 80, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    segredo = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    DuracaoToken = table.Column<int>(type: "int", nullable: false),
+                    diretorio_raiz_arquivos = table.Column<string>(type: "varchar(400)", maxLength: 400, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    extensoes_aceitas = table.Column<string>(type: "varchar(400)", maxLength: 400, nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    tamanho_maximo_arquivo = table.Column<int>(type: "int", nullable: false),
+                    empresa_id = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_adm_parametros", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_adm_parametros_adm_empresa_empresa_id",
+                        column: x => x.empresa_id,
+                        principalTable: "adm_empresa",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "adm_usuarios",
                 columns: table => new
                 {
@@ -314,6 +344,12 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_adm_parametros_empresa_id",
+                table: "adm_parametros",
+                column: "empresa_id",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_adm_usuarios_empresa_id",
                 table: "adm_usuarios",
                 column: "empresa_id");
@@ -382,6 +418,9 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "adm_parametros");
+
             migrationBuilder.DropTable(
                 name: "cmd_chamados");
 

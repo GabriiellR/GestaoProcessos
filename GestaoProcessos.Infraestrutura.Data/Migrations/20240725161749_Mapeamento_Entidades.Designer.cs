@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GestaoProcessos.Infraestrutura.Data.Migrations
 {
     [DbContext(typeof(MysqlContext))]
-    [Migration("20240724201836_Mapeamento_Entidades")]
+    [Migration("20240725161749_Mapeamento_Entidades")]
     partial class Mapeamento_Entidades
     {
         /// <inheritdoc />
@@ -114,6 +114,55 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("adm_funcao", (string)null);
+                });
+
+            modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Parametros", b =>
+                {
+                    b.Property<int?>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    b.Property<string>("DiretorioRaizArquivo")
+                        .IsRequired()
+                        .HasMaxLength(400)
+                        .HasColumnType("varchar")
+                        .HasColumnName("diretorio_raiz_arquivos");
+
+                    b.Property<int>("DuracaoToken")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EmpresaId")
+                        .HasColumnType("int")
+                        .HasColumnName("empresa_id");
+
+                    b.Property<string>("ExtensoesAceitas")
+                        .IsRequired()
+                        .HasMaxLength(400)
+                        .HasColumnType("varchar")
+                        .HasColumnName("extensoes_aceitas");
+
+                    b.Property<string>("NomeSistema")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("varchar")
+                        .HasColumnName("nome_sistema");
+
+                    b.Property<string>("Segredo")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("segredo");
+
+                    b.Property<int>("TamanhoMaximoArquivo")
+                        .HasColumnType("int")
+                        .HasColumnName("tamanho_maximo_arquivo");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmpresaId")
+                        .IsUnique();
+
+                    b.ToTable("adm_parametros", (string)null);
                 });
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Setor", b =>
@@ -429,6 +478,17 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
                     b.ToTable("cmd_subfilas", (string)null);
                 });
 
+            modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Parametros", b =>
+                {
+                    b.HasOne("GestaoProcessos.Dominio.Administracao.Empresa", "Empresa")
+                        .WithOne("Parametro")
+                        .HasForeignKey("GestaoProcessos.Dominio.Administracao.Parametros", "EmpresaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Empresa");
+                });
+
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Usuario", b =>
                 {
                     b.HasOne("GestaoProcessos.Dominio.Administracao.Empresa", "Empresa")
@@ -538,6 +598,8 @@ namespace GestaoProcessos.Infraestrutura.Data.Migrations
 
             modelBuilder.Entity("GestaoProcessos.Dominio.Administracao.Empresa", b =>
                 {
+                    b.Navigation("Parametro");
+
                     b.Navigation("Usuarios");
                 });
 

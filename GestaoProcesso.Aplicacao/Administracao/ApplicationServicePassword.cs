@@ -16,7 +16,7 @@ namespace GestaoProcesso.Aplicacao.Administracao
             return Convert.ToBase64String(salt);
         }
 
-        public string HashPassword(string password, string salt)
+        public string GerarHashPassword(string password, string salt)
         {
             byte[] saltBytes = Convert.FromBase64String(salt);
             string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
@@ -31,7 +31,7 @@ namespace GestaoProcesso.Aplicacao.Administracao
 
         public bool VerificarPassword(string senha, string hash, string salt)
         {
-            var hashVerificar = HashPassword(senha, salt);
+            var hashVerificar = GerarHashPassword(senha, salt);
             return hashVerificar == hash;
         }
     }
