@@ -1,4 +1,6 @@
 ﻿using GestaoProcesso.Aplicacao.Hubs;
+using GestaoProcesso.Aprensentacao.Constants;
+using GestaoProcesso.Aprensentacao.Enumeradores;
 using GestaoProcessos.Aplicacao.DTO.Chamados;
 using GestaoProcessos.Aplicacao.Interfaces.Chamados;
 using Microsoft.AspNetCore.Authorization;
@@ -27,17 +29,17 @@ namespace GestaoProcesso.Aprensentacao.Controllers.Chamados
                 return BadRequest("DTO não pode ser nulo");
 
             dto = _applicationServiceChamado.AddOrUpdate(dto);
-            await _hubContext.Clients.All.SendAsync("newMessage", dto);
+            await _hubContext.Clients.All.SendAsync("chamados", dto);
 
-            return new OkObjectResult(new { Message = "Dados adicionados", Data = dto });
+            return DefaultResults.HandleResult(ResultType.Post, dto);
         }
 
         [Authorize]
         [HttpGet]
         public ActionResult GetAll()
         {
-            var dtoLiist = _applicationServiceChamado.GetAll();
-            return new OkObjectResult(new { Message = "Dados obtidos com sucesso", Data = dtoLiist });
+            var dtoList = _applicationServiceChamado.GetAll();
+            return DefaultResults.HandleResult(ResultType.Get, dtoList);
         }
 
     }

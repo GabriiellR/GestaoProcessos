@@ -45,5 +45,10 @@ namespace GestaoProcesso.Aprensentacao.Constants
         {
             return new OkObjectResult(new ResultValue { Message = message });
         }
+
+        public static ActionResult HandleResult(string message, object data)
+        {
+            return new OkObjectResult(new ResultValue { Message = message, Data = data });
+        }
     }
 }
