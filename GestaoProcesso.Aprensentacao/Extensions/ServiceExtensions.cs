@@ -79,13 +79,12 @@ namespace GestaoProcesso.Aprensentacao.Extensions
                 {
                     OnAuthenticationFailed = context =>
                     {
-                        // Lógica para tratar falhas de autenticação
                         var exception = context.Exception;
                         context.Response.ContentType = "application/json";
                         context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                         return context.Response.WriteAsync(new
                         {
-                            error = "Authentication failed",
+                            error = "Falha na autenticação.",
                             message = exception.Message
                         }.ToString());
                     },
